@@ -3,19 +3,52 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.3.0",
+    "@notifee/react-native": "^9.1.8",
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-community/push-notification-ios": "^1.11.0",
+    "@react-native-firebase/app": "^21.13.0",
+    "@react-native-firebase/messaging": "^21.13.0",
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/bottom-tabs": "^7.3.4",
+    "@react-navigation/native": "^7.1.0",
+    "@react-navigation/stack": "^7.2.4",
     "expo": "~52.0.42",
+    "expo-camera": "~16.0.18",
+    "expo-font": "^13.0.4",
+    "expo-location": "^18.0.10",
+    "expo-notifications": "~0.29.14",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
-    "react-native": "0.76.8"
+    "react-dom": "18.3.1",
+    "react-native": "0.76.8",
+    "react-native-calendars": "^1.1310.0",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-dev-menu": "^4.1.1",
+    "react-native-geocoding": "^0.5.0",
+    "react-native-geolocation-service": "^5.3.1",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-maps": "^1.20.1",
+    "react-native-maps-directions": "^1.9.0",
+    "react-native-paper": "^5.13.1",
+    "react-native-push-notification": "^8.1.1",
+    "react-native-qrcode-scanner": "^1.5.5",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-screens": "^4.10.0",
+    "react-native-svg": "^15.11.2",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-vision-camera": "^4.6.4",
+    "react-native-web": "~0.19.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@react-native-community/cli": "^18.0.0"
   },
   "private": true
 }
